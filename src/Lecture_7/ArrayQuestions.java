@@ -12,14 +12,14 @@ public class ArrayQuestions {
     }
 
     private static void reverse(int[] arr) {
-        int l = 0;
-        int r = arr.length-1;
-        while (l<=r){
-            int temp = arr[l];
-            arr[l] = arr[r];
-            arr[r] = temp;
-            l++;
-            r--;
+        int left = 0;
+        int right = arr.length-1;
+        while (left<=right){
+            int temp = arr[left];
+            arr[left] = arr[right];
+            arr[right] = temp;
+            left++;
+            right--;
         }
     }
 
