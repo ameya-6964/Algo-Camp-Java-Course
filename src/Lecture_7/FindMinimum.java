@@ -1,7 +1,5 @@
 package Lecture_7;
 
-import UtilityFunctions.PrintArray.*;
-
 import static UtilityFunctions.PrintArray.display;
 
 public class FindMinimum {
